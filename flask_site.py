@@ -12,8 +12,8 @@ app.config['detected_faces_folder'] = detected_faces_folder
 
 @app.route('/')
 def page_startup():
-    class_name = "Yentl"
-    subscription_key = "8a79070b7dfe49eab8705eed47cdc581"
+    class_name = ""
+    subscription_key = ""
 
     try:
         cam = camera.init_camera(subscription_key, index_camera=1)
