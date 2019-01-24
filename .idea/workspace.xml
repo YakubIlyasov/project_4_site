@@ -5,8 +5,59 @@
       <change beforePath="$PROJECT_DIR$/classes/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/camera.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_site.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_site.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/temp_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/temp_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_12_37_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_12_38_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_05_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_06_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_08_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_10_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_12_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_13_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_14_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_17_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_18_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_19_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_23_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_24_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_25_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_28_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_29_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_38_59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_40_00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_40_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_41_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_41_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_42_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_43_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_45_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_46_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_47_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_49_59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_50_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_52_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_53_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_54_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_55_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3NMCT/3NMCT_24_01_2019_13_57_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_12_37_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_12_38_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_05_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_06_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_08_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_10_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_12_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_13_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_14_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_17_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_18_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_19_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_23_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_24_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_25_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_28_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_29_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_52_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/detected_faces/3NMCT_24_01_2019_13_53_38.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +66,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/project_4_site$Flask__flask_site_py_.coverage" NAME="Flask (flask_site.py) Coverage Results" MODIFIED="1548334608208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/project_4_site$Flask__flask_site_py_.coverage" NAME="Flask (flask_site.py) Coverage Results" MODIFIED="1548340554661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-362573870">
@@ -40,13 +91,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="43" />
-          <entry key="py" value="611" />
+          <entry key="py" value="6218" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="43" />
-          <entry key="Python" value="611" />
+          <entry key="Python" value="6218" />
         </counts>
       </usages-collector>
     </session>
@@ -56,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flask_site.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+            <state relative-caret-position="289">
+              <caret line="20" column="67" lean-forward="true" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -77,8 +128,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,8 +140,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="3077">
+              <caret line="181" selection-start-line="181" selection-end-line="181" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1548340262602" expanded="true" signature="5846:5847" ph="..." />
+                <marker date="1548340262602" expanded="true" signature="7221:7226" ph="..." />
+                <marker date="1548340262602" expanded="true" signature="7898:7899" ph="..." />
+                <marker date="1548340262602" expanded="true" signature="8049:8054" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +156,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/camera.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="153">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -106,6 +167,15 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>3nmct</find>
+      <find>detected_faces</find>
+      <find>cf</find>
+      <find>bestaat</find>
+      <find>class_name</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -113,9 +183,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main_script.py" />
+        <option value="$PROJECT_DIR$/templates/temp_home.html" />
         <option value="$PROJECT_DIR$/classes/camera.py" />
         <option value="$PROJECT_DIR$/classes/api.py" />
-        <option value="$PROJECT_DIR$/templates/temp_home.html" />
         <option value="$PROJECT_DIR$/flask_site.py" />
       </list>
     </option>
@@ -147,6 +217,11 @@
               <item name="project_4_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_4_site" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_4_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_4_site" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_4_site" type="b2602c69:ProjectViewProjectNode" />
@@ -238,7 +313,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -299,17 +374,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_script.py">
+    <entry file="file://$PROJECT_DIR$/templates/temp_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="391">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/camera.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -318,22 +393,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="3077">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1548340262602" expanded="true" signature="5846:5847" ph="..." />
+            <marker date="1548340262602" expanded="true" signature="7221:7226" ph="..." />
+            <marker date="1548340262602" expanded="true" signature="7898:7899" ph="..." />
+            <marker date="1548340262602" expanded="true" signature="8049:8054" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/temp_home.html">
+    <entry file="file://$PROJECT_DIR$/main_script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_site.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        <state relative-caret-position="289">
+          <caret line="20" column="67" lean-forward="true" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

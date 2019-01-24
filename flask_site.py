@@ -12,29 +12,41 @@ app.config['detected_faces_folder'] = detected_faces_folder
 
 @app.route('/')
 def page_startup():
-    class_name = "3NMCT"
+    class_name = "Yentl"
+    subscription_key = "8a79070b7dfe49eab8705eed47cdc581"
 
-    cam = camera.init_camera(index_camera=1)
-    identified_students = camera.capture_image(cam, class_name)
-    print(identified_students)
+    try:
+        cam = camera.init_camera(subscription_key, index_camera=1)
 
-    if identified_students == "No faces detected.":
-        txt = "There were no faces detected in the picture."
-        list_of_files = glob.glob('./static/images/3NMCT/*.jpg')
-        img = '.' + max(list_of_files, key=os.path.getctime).replace('\\', '/')
-        print(txt)
-    else:
-        txt = "The people in the picture are: "
-        for student in identified_students:
-            txt += "\n- " + student
+        identified_students = camera.capture_image(cam, class_name)
+        print(identified_students)
 
-        list_of_files = glob.glob('./static/images/detected_faces/*.jpg')  # * means all if need specific format then *.csv
-        img = '.' + max(list_of_files, key=os.path.getctime).replace('\\', '/')
+        if identified_students == "No faces detected.":
+            txt = "There were no faces detected in the picture."
+            list_of_files = glob.glob('./static/images/' + class_name + '/*.jpg')
+            img = '.' + max(list_of_files, key=os.path.getctime).replace('\\', '/')
+            print(txt)
+        else:
+            if identified_students != []:
+                txt = "The people in the picture are: "
+                for student in identified_students:
+                    txt += "\n- " + student
+            else:
+                txt = "The people in the picture were not recognized."
 
-        print(txt)
-        print(img)
+            list_of_files = glob.glob('./static/images/' + class_name + '_detected_faces/*.jpg')  # * means all if need specific format then *.csv
+            img = '.' + max(list_of_files, key=os.path.getctime).replace('\\', '/')
 
-    return render_template("temp_home.html", image_name=img, text=txt)
+            print(txt)
+            print(img)
+
+        return render_template("temp_home.html", image_name=img, text=txt)
+
+    except Exception as error:
+        print(error)
+        img = "../static/site_images/error.jpg"
+        img = img.replace("\\", "/")
+        return render_template("temp_home.html", image_name=img, text=error)
 
 
 if __name__ == '__main__':

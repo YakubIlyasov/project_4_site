@@ -7,8 +7,8 @@ from classes import api
 init_counter = 0
 
 
-def init_camera(index_camera=0, frm_width=1920, frm_height=1080):
-    api.init_api()
+def init_camera(subscription_key, index_camera=0, frm_width=1920, frm_height=1080):
+    api.init_api(subscription_key)
     cam = cv2.VideoCapture(index_camera)  # 0 -> index of camera
     cam.set(cv2.CAP_PROP_FRAME_WIDTH, frm_width)
     cam.set(cv2.CAP_PROP_FRAME_HEIGHT, frm_height)
