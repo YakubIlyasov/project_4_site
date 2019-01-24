@@ -109,12 +109,13 @@ def get_people():
     return dict_students
 
 
-
 def add_picture_to_person(image_path, image_name, person_group_id, person_name):
     # functie om een foto toe te voegen aan een bepaalde persoon in een person group
     person_group_list = []
     dict_people = {}
     list_people = []
+    person_group_id = person_group_id.lower()
+    person_group_id = person_group_id.replace(" ", "_")
 
     try:
         # checken of de image kan ingelezen te worden om zeker te zijn dat de image bestaat
@@ -156,6 +157,8 @@ def add_person_to_person_group(person_group_id, name, user_data=""):
     person_group_list = []
     dict_people = {}
     list_people = []
+    person_group_id = person_group_id.lower()
+    person_group_id = person_group_id.replace(" ", "_")
 
     for person_group in cf.person_group.lists():
         # lijst met alle person group id's
@@ -180,9 +183,46 @@ def add_person_to_person_group(person_group_id, name, user_data=""):
         print("This person group doesn't exist.")
 
 
-def create_person_group(person_group_name):
+def delete_person_from_person_group(person_group_id, person_name):
+    # functie om een persoon te verwijderen uit een person group
+    person_group_list = []
+    dict_people = {}
+    list_people = []
+    person_group_id = person_group_id.lower()
+    person_group_id = person_group_id.replace(" ", "_")
+
+    for person_group in cf.person_group.lists():
+        # lijst van alle person group id's
+        person_group_list.append(person_group["personGroupId"])
+
+    if person_group_id in person_group_list:
+        # de meegegeven person group moet bestaan
+        print("Person group id exists.")
+
+        for person in cf.person.lists(person_group_id):
+            # dictionary met de naam van de personen met daaraan hun personId gekoppeld
+            dict_people[person["name"]] = person["personId"]
+            # lijst met de namen van alle personen
+            list_people.append(person["name"])
+
+        if person_name in list_people:
+            # je geeft de naam mee in het begin en deze wordt hier omgezet naar het juiste personId
+            person_id = dict_people[person_name]
+
+            # de person group als de persoon zelf bestaan, dan wordt de persoon verwijderd uit de person group
+            cf.person.delete(person_group_id, person_id)
+
+        else:
+            print("This person does not exist in this person group.")
+    else:
+        print("Person group id does not exists.")
+
+
+def create_person_group(person_group_id):
     # functie om een person group aan te maken
     person_group_list = []
+    person_group_id = person_group_id.lower()
+    person_group_id = person_group_id.replace(" ", "_")
 
     for person_group in cf.person_group.lists():
         # een lijst met alle bestaande person groups
@@ -199,6 +239,8 @@ def create_person_group(person_group_name):
 def delete_person_group(person_group_id):
     # functie om een bestaande person group te verwijderen
     person_group_list = []
+    person_group_id = person_group_id.lower()
+    person_group_id = person_group_id.replace(" ", "_")
 
     for person_group in cf.person_group.lists():
         # een lijst met alle bestaande person groups
