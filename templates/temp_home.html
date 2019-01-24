@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+{#    <meta http-equiv="refresh" content="5">#}
+    <title>Project 4 site</title>
+    <style>
+        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+        }
+
+        img {
+            width: 1080px;
+        }
+
+        img.img-center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p.text-center {
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            max-height: 100px;
+            overflow: auto;
+        }
+
+        .aligner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .center {
+            margin-top: 150px;
+        }
+    </style>
+</head>
+<body>
+
+<main class="aligner">
+    <div class="center">
+{#        <img class="img-center" src="https://data.whicdn.com/images/298844185/large.jpg?t=1507433077" alt="Image">#}
+        <img class="img-center" src="{{ url_for('static', filename=image_name) }}" alt="Image">
+        <br>
+        <p class="text-center" >{{ text }}</p>
+    </div>
+</main>
+
+</body>
+</html>
