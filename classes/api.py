@@ -42,33 +42,39 @@ def detect_people(image_path, image_name, class_name):
     if not os.path.exists(path):
         os.makedirs(path)
 
-    cv2.imwrite(os.path.join(path, img_name), cv2.cvtColor(image_boxes, cv2.COLOR_RGB2BGR))
+    if lst_face_id != []:
+        cv2.imwrite(os.path.join(path, img_name), cv2.cvtColor(image_boxes, cv2.COLOR_RGB2BGR))
+        return lst_face_id
 
-    return lst_face_id
+    else:
+        return "No faces detected."
 
 
 def identify_people(detected_people):
-    lst_identified_people = []
-    identified_faces = cf.face.identify(detected_people, get_person_group_id_for_identify())
-    detected_face = 0
+    if detected_people == "No faces detected.":
+        return "No faces detected."
+    else:
+        lst_identified_people = []
+        identified_faces = cf.face.identify(detected_people, get_person_group_id_for_identify())
+        detected_face = 0
 
-    dict_people = get_people()
+        dict_people = get_people()
 
-    for face in identified_faces:
-        if face["candidates"] != []:
-            print("We are %.2f%% sure that person %s is %s." % (
-                face["candidates"][0]["confidence"] * 100, detected_face,
-                dict_people[face["candidates"][0]["personId"]]))
+        for face in identified_faces:
+            if face["candidates"] != []:
+                print("We are %.2f%% sure that person %s is %s." % (
+                    face["candidates"][0]["confidence"] * 100, detected_face,
+                    dict_people[face["candidates"][0]["personId"]]))
 
-            person = "%s | person: %s | percent: %.2f%%" % (
-                dict_people[face["candidates"][0]["personId"]], detected_face,
-                face["candidates"][0]["confidence"] * 100)
-            # lst_identified_people.append(dict_people[face["candidates"][0]["personId"]])
-            lst_identified_people.append(person)
-        else:
-            print("We were unable to identify person " + str(detected_face) + ".")
-        detected_face += 1
-    return lst_identified_people
+                person = "%s | person: %s | percent: %.2f%%" % (
+                    dict_people[face["candidates"][0]["personId"]], detected_face,
+                    face["candidates"][0]["confidence"] * 100)
+                # lst_identified_people.append(dict_people[face["candidates"][0]["personId"]])
+                lst_identified_people.append(person)
+            else:
+                print("We were unable to identify person " + str(detected_face) + ".")
+            detected_face += 1
+        return lst_identified_people
 
 
 def get_person_group_id_for_identify():

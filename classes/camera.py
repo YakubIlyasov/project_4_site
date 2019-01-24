@@ -2,7 +2,7 @@ import os
 import cv2
 import time
 
-from project_4_site.classes import api
+from classes import api
 
 init_counter = 0
 

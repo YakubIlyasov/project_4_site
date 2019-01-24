@@ -1,4 +1,4 @@
-from project_4_site.classes import camera
+from classes import camera
 import time
 
 try:
