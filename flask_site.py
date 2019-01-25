@@ -43,9 +43,16 @@ def page_startup():
         return render_template("temp_home.html", image_name=img, text=txt)
 
     except Exception as error:
-        print(error)
         img = "../static/site_images/error.jpg"
         img = img.replace("\\", "/")
+        if class_name == "":
+            error = "No class name was given."
+            print("No class name was given.")
+        elif subscription_key == "":
+            error = "No subscription key was given."
+            print("No subscription key was given.")
+        else:
+            print(error)
         return render_template("temp_home.html", image_name=img, text=error)
 
 
